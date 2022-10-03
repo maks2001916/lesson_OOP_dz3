@@ -30,7 +30,7 @@ public class Mammals extends Animals {
         this.speedOfMovement = speedOfMovement;
     }
 
-    public void walk() {
+    public void walk() {  //гулять
         System.out.println("гуляет в течении дня");
     }
 
