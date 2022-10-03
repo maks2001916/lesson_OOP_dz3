@@ -51,8 +51,8 @@ public class Amphibians extends Animals {
 
     @Override
     public String toString() {
-        return "земноводное{" +
-                "среда обитания - '" + livingEnvironment + '\'' +
-                '}';
+        return "травоядное{" + "; кличка - " + getNickname() +
+                "; время жизни - " + getNumberOfYears() + " лет; среда обитания - " +
+                getLivingEnvironment() + '}';
     }
 }

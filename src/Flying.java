@@ -1,23 +1,19 @@
 import java.util.Objects;
 
-public class Flightless extends  Birds{
+public class Flying extends  Birds{
     private String typeOfForesight;  //способ передвижения
 
-    public Flightless(String nickname, int numberOfYears, String livingEnvironment, String typeOfForesight) {
+    public Flying(String nickname, int numberOfYears, String livingEnvironment, String typeOfForesight) {
         super(nickname, numberOfYears, livingEnvironment);
-        if (typeOfForesight != null && !typeOfForesight.isEmpty() && !typeOfForesight.isBlank()) {
-            this.typeOfForesight = typeOfForesight;
-        } else {
-            this.typeOfForesight = "пешком";
-        }
+        this.typeOfForesight = typeOfForesight;
     }
 
-    public void walk() {  //гулять
-        System.out.println("гуляет в течении дня");
+    public void toFly() {  //летать
+        System.out.println("летает во время охоты");
     }
 
-    public String getTypeOfForesight() {
-        return typeOfForesight;
+    public void setTypeOfForesight(String typeOfForesight) {
+        this.typeOfForesight = typeOfForesight;
     }
 
     @Override
@@ -25,8 +21,8 @@ public class Flightless extends  Birds{
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         if (!super.equals(o)) return false;
-        Flightless that = (Flightless) o;
-        return Objects.equals(typeOfForesight, that.typeOfForesight);
+        Flying flying = (Flying) o;
+        return Objects.equals(typeOfForesight, flying.typeOfForesight);
     }
 
     @Override

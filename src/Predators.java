@@ -38,8 +38,9 @@ public class Predators extends Mammals{
 
     @Override
     public String toString() {
-        return "Predators{" +
-                "livingEnvironment='" + livingEnvironment + '\'' +
-                '}';
+        return "хищник{" +
+                "тип пищи - " + getLivingEnvironment() + "; кличка - " + getNickname() +
+                "; время жизни - " + getNumberOfYears() + " лет; среда обитания - " +
+                getLivingEnvironment() + "; скорость прееедвижения - " + getSpeedOfMovement() + " км/ч" + '}';
     }
 }

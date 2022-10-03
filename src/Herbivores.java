@@ -43,7 +43,8 @@ public class Herbivores extends Mammals {
     @Override
     public String toString() {
         return "травоядное{" +
-                "тип пищи - '" + typeOfFood + '\'' +
-                '}';
+                "тип пищи - " + typeOfFood + "; кличка - " + getNickname() +
+                "; время жизни - " + getNumberOfYears() + " лет; среда обитания - " +
+                getLivingEnvironment() + "; скорость прееедвижения - " + getSpeedOfMovement() + " км/ч" + '}';
     }
 }
