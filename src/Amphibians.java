@@ -12,6 +12,10 @@ public class Amphibians extends Animals {
         }
     }
 
+    public void hunt() {  //охотиться
+        System.out.println("охотится днём или ночью");
+    }
+
     public String getLivingEnvironment() {
         return livingEnvironment;
     }
