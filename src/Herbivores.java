@@ -22,7 +22,7 @@ public class Herbivores extends Mammals {
         this.typeOfFood = typeOfFood;
     }
 
-    public void graze() {
+    public void graze() {  //пастись
         System.out.println("пасётся днём");
     }
 

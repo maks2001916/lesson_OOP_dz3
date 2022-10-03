@@ -1,8 +1,8 @@
 import java.util.Objects;
 
 public class Mammals extends Animals {
-    private String livingEnvironment;
-    private double speedOfMovement;
+    private String livingEnvironment;  //тип пищи
+    private double speedOfMovement;  //скорость передвижения
 
     public Mammals(String nickname, int numberOfYears, String livingEnvironment, double speedOfMovement) {
         super(nickname, numberOfYears);
