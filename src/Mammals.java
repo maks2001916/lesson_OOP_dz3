@@ -36,17 +36,17 @@ public class Mammals extends Animals {
 
     @Override
     public void eat() {
-        
+        System.out.println("питается плотью или растительностью");
     }
 
     @Override
     public void sleep() {
-
+        System.out.println("спит в основном ночью");
     }
 
     @Override
     public void moveAround() {
-
+        System.out.println("активен в основном днём");
     }
 
     @Override

@@ -22,17 +22,17 @@ public class Amphibians extends Animals {
 
     @Override
     public void eat() {
-
+        System.out.println("питается насекомыми");
     }
 
     @Override
     public void sleep() {
-
+        System.out.println("спит днём или ночью");
     }
 
     @Override
     public void moveAround() {
-
+        System.out.println("активен днём или ночью");
     }
 
     @Override

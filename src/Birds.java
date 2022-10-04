@@ -14,17 +14,17 @@ public class Birds extends Animals{
 
     @Override
     public void eat() {
-
+        System.out.println("питается насекомыми или грызунами");
     }
 
     @Override
     public void sleep() {
-
+        System.out.println("спит в основном ночью");
     }
 
     @Override
     public void moveAround() {
-
+        System.out.println("активен днём");
     }
 
     @Override
